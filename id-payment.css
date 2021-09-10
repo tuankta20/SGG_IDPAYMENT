@@ -1,0 +1,267 @@
+header {
+    height: 72px;
+    background: #061730;
+    position: relative;
+    z-index: 100;
+}
+
+header .navbar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#cover {
+    background: #222 url(images/id_landing.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer {
+    background: #F5F5F5;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.modal-content1 {
+    background-color: transparent !important;
+    border: none !important;
+    margin: auto;
+    padding: 70px 60px;
+    width: 1072px;
+    height: 845px;
+    background: url(images/bgpopup.png) no-repeat top center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.closez {
+    float: right;
+    width: 79px;
+    height: 79px;
+    background: url("images/btnclose.png") no-repeat top center;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-indent: -9999px;
+}
+
+.closez:hover,
+.closez:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tabContent {
+    width: 100%;
+    padding: 20px 0 0px;
+}
+
+.tabContent .modal-cont {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    letter-spacing: 10px;
+    margin: 0px 10px 20px 70px;
+}
+
+.modal-intro-footer .modal-cont {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    letter-spacing: 5px;
+}
+
+.acceptrule {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    letter-spacing: 2px;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.rules a {
+    color: #ff1800!important;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 2px;
+    text-decoration: none !important;
+}
+
+ul.tabs {
+    padding: 7px 0;
+    margin: 0;
+    font-size: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.tabs li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul.tabs li a {
+    width: 330px;
+    height: 108px;
+    line-height: 90px;
+    display: block;
+    background: url("images/btn-submit.png") no-repeat top center !important;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+ul.tabs li.selected a {
+    background: url("images/btn-submit.png") no-repeat top center;
+    text-decoration: none !important;
+}
+
+ul.tabs li a:hover {
+    color: #FFEC3E;
+}
+
+ul.tabs li.selected a:hover {
+    text-decoration: none;
+}
+
+div.tabcontents {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+div.tabcontents .tabcontent {
+    padding: 35px;
+    height: 800px;
+    overflow: auto;
+}
+
+div.tabcontents .tabcontent .form-group {
+    width: 100%;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    margin-bottom: 25px;
+}
+
+div.tabcontents .tabcontent .form-group label {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+div.tabcontents .tabcontent .form-group input.form-control {
+    width: 70%;
+    height: 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+    margin-left: 160px;
+}
+
+div.tabcontents .tabcontent .form-group input.submit {
+    display: block;
+    border: none;
+    background: url("images/btn-submit.png") no-repeat top center;
+    width: 190px;
+    height: 55px;
+    margin: 0 auto;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+div.tabcontents .tabcontent .form-group input.submit:hover {
+    filter: brightness(150%);
+}
+
+div.tabcontents .tabcontent .form-group a.quenmatkhau {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 360px;
+}
+
+div.tabcontents .tabcontent h4 {
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+div.tabcontents .tabcontent p {
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 0px 0px 10px #00dfff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: left;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+div.tabcontents .tabcontent img {
+    max-width: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-animation-name: fadeIn;
+    /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+.modalza {
+    position: relative;
+    transform-origin: 50% 0;
+}
